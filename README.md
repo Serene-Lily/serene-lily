@@ -39,6 +39,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### `npm run deploy`
+
+Runs the `predeploy` and `deploy` scripts to run. `predeploy` will build a distributable version of the React app and store it in a folder named `build`. Then, the `deploy` script will push the contents of that folder to a new commit on the `gh-pages` branch.
+
+By default, commit message is set to "Updates", but you can specify a custom message via the `-m` option like this:
+
+```$ npm run deploy -- -m "Deploy React app to GitHub Pages"```
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
