@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/serene-lily/static/css/main.f855e6bc.css",
+    "main.js": "/serene-lily/static/js/main.539c704c.js",
+    "static/js/453.f28a683e.chunk.js": "/serene-lily/static/js/453.f28a683e.chunk.js",
+    "static/media/logo.svg": "/serene-lily/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/serene-lily/index.html",
+    "main.f855e6bc.css.map": "/serene-lily/static/css/main.f855e6bc.css.map",
+    "main.539c704c.js.map": "/serene-lily/static/js/main.539c704c.js.map",
+    "453.f28a683e.chunk.js.map": "/serene-lily/static/js/453.f28a683e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.539c704c.js"
+  ]
+}
