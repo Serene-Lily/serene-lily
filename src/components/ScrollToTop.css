@@ -1,0 +1,19 @@
+.icon {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid var(--first-color);
+  background-color: var(--body-color);
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.icon:hover {
+  animation: none;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  border: 2px solid var(--body-color);
+}

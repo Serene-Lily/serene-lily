@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@700&family=Montserrat:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@700&family=Montserrat:wght@400;600;700&display=swap');
 
 :root {
   --header-height: 3.5rem;
@@ -6,25 +6,25 @@
   --title-color: hsl(0, 0%, 0%);
   --text-color: hsl(0, 0%, 0%);
   --body-color: hsl(33, 24%, 91%);
-  --body-font: "Montserrat", sans-serif;
-  --second-font: "Abril Fatface", serif;
+  --body-font: 'Montserrat', sans-serif;
+  --second-font: 'Abril Fatface', serif;
   --h2-font-size: 1.25rem;
   --small-font-size: 0.813rem;
   --font-semi-bold: 600;
   --z-tooltip: 10;
   --z-fixed: 100;
- }
- 
- body {
+}
+
+body {
   background-color: var(--body-color);
   color: var(--text-color);
   font-family: var(--body-font);
- }
- 
- ul {
+}
+
+ul {
   list-style: none;
- }
- 
- a {
+}
+
+a {
   text-decoration: none;
- }
+}

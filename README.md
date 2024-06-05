@@ -45,7 +45,7 @@ Runs the `predeploy` and `deploy` scripts to run. `predeploy` will build a distr
 
 By default, commit message is set to "Updates", but you can specify a custom message via the `-m` option like this:
 
-```$ npm run deploy -- -m "Deploy React app to GitHub Pages"```
+`$ npm run deploy -- -m "Deploy React app to GitHub Pages"`
 
 ## Learn More
 
