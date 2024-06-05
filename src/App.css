@@ -2,37 +2,115 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* navigation */
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: var(--header-height);
+  margin: 1rem;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 1150px) {
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: hsla(0, 0%, 6%, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 22%;
+    height: 100%;
+    padding: 6rem 2rem 0 0;
+    transition: right 0.4s;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.show-menu {
+  right: 0;
+}
+
+.nav__list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  row-gap: 2.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.nav__item {
+  text-decoration: none;
+  display: inline;
+  padding: 20px 20px;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.nav__link {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  transition: color 0.4s;
+  cursor: pointer;
+  margin: auto;
+}
+ 
+.nav__link:hover {
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.nav__cta {
+  background-color: var(--first-color);
+  color: var(--body-color);
+  font-weight: var(--font-semi-bold);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  display: inline;
+  font-size: large;
+}
+
+.nav__cta:hover {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav__close, .nav__toggle {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
+ 
+.nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+@media screen and (min-width: 1150px) {
+  .nav {
+    height: calc(var(--header-height) + 1rem);
   }
-  to {
-    transform: rotate(360deg);
+  .nav__toggle,
+  .nav__close {
+    display: none;
+  }
+ 
+  .nav__list {
+    flex-direction: row;
+    column-gap: 2.5rem;
   }
 }

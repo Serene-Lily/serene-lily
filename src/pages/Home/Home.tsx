@@ -1,10 +1,10 @@
-import React from 'react';
-import hero from '../assets/home_hero.png'
-import "./Home.css";
+import React from 'react'
+import hero from '../../assets/home_hero.png'
+import './Home.css'
 
 export const Home = () => {
   return (
-    <div className="home-container">
+    <div className="home__container">
       <div>
         <h1>
           Unlocking the potential of digital tranquility
@@ -12,9 +12,6 @@ export const Home = () => {
         <p>
           Relax, we'll navigate together to find the best digital solution for you. Say goodbye to headaches, and hello to seamless solutions."
         </p>
-        <button>
-          Let's chat!
-        </button>
       </div>
 
       <img src={hero} alt='find your digital tranquility' height={700} />
