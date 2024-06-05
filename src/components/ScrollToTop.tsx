@@ -1,34 +1,34 @@
-import { useState, useEffect } from "react";
-import { FaAngleUp } from "react-icons/fa";
+import { useState, useEffect } from 'react'
+import { FaAngleUp } from 'react-icons/fa'
 
-import "./ScrollToTop.css"
+import './ScrollToTop.css'
 
 const ScrollToTop = () => {
-  const [showScrollTopButton, setShowScrollTopButton] = useState(false);
+  const [showScrollTopButton, setShowScrollTopButton] = useState(false)
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       if (window.scrollY > 300) {
-        setShowScrollTopButton(true);
+        setShowScrollTopButton(true)
       } else {
-        setShowScrollTopButton(false);
+        setShowScrollTopButton(false)
       }
-    });
-  }, []);
+    })
+  }, [])
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
-    });
-  };
+      behavior: 'smooth',
+    })
+  }
   return (
     <div>
       {showScrollTopButton && (
         <FaAngleUp className="icon" onClick={scrollToTop} />
       )}
     </div>
-  );
-};
+  )
+}
 
-export default ScrollToTop;
+export default ScrollToTop

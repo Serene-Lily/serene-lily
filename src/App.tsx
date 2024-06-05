@@ -1,34 +1,34 @@
-import { useRef, useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { IoClose } from "react-icons/io5";
-import logo from "./assets/sl_logo.png";
-import ScrollToTop from "./components/ScrollToTop";
-import { Home } from "./pages/Home/Home";
-import { Services } from "./pages/Services/Services";
-import { About } from "./pages/About/About";
-import { Contact } from "./pages/Contact/Contact";
+import { useRef, useState } from 'react'
+import { FaBars } from 'react-icons/fa'
+import { IoClose } from 'react-icons/io5'
+import logo from './assets/sl_logo.png'
+import ScrollToTop from './components/ScrollToTop'
+import { Home } from './pages/Home/Home'
+import { Services } from './pages/Services/Services'
+import { About } from './pages/About/About'
+import { Contact } from './pages/Contact/Contact'
 
-import "./App.css";
+import './App.css'
 
 function App() {
-  const home = useRef<HTMLDivElement>(null);
-  const services = useRef<HTMLDivElement>(null);
-  const about = useRef<HTMLDivElement>(null);
-  const contact = useRef<HTMLDivElement>(null);
+  const home = useRef<HTMLDivElement>(null)
+  const services = useRef<HTMLDivElement>(null)
+  const about = useRef<HTMLDivElement>(null)
+  const contact = useRef<HTMLDivElement>(null)
 
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false)
 
   const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
+    setShowMenu(!showMenu)
+  }
 
   const scrollToSection = (elementRef: HTMLDivElement) => {
     window.scrollTo({
       // @ts-ignore
       top: elementRef.current.offsetTop - 120,
-      behavior: "smooth",
-    });
-  };
+      behavior: 'smooth',
+    })
+  }
 
   return (
     <div className="App">
@@ -43,14 +43,17 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className={`nav__menu ${showMenu ? "show-menu" : ""}`}>
+          <div className={`nav__menu ${showMenu ? 'show-menu' : ''}`}>
             <ul className="nav__list">
               {/* @ts-ignore */}
               <li onClick={() => scrollToSection(home)} className="nav__link">
                 Home
               </li>
-              {/* @ts-ignore */}
-              <li onClick={() => scrollToSection(services)} className="nav__link">
+              <li
+                // @ts-ignore
+                onClick={() => scrollToSection(services)}
+                className="nav__link"
+              >
                 Services
               </li>
               {/* @ts-ignore */}
@@ -84,7 +87,7 @@ function App() {
         <Contact />
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

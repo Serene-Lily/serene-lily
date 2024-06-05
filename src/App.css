@@ -64,7 +64,7 @@
   cursor: pointer;
   margin: auto;
 }
- 
+
 .nav__link:hover {
   color: var(--first-color);
   cursor: pointer;
@@ -88,12 +88,13 @@
   transition: background-color 0.3s ease;
 }
 
-.nav__close, .nav__toggle {
+.nav__close,
+.nav__toggle {
   font-size: 1.5rem;
   color: var(--title-color);
   cursor: pointer;
 }
- 
+
 .nav__close {
   position: absolute;
   top: 1rem;
@@ -108,7 +109,7 @@
   .nav__close {
     display: none;
   }
- 
+
   .nav__list {
     flex-direction: row;
     column-gap: 2.5rem;
