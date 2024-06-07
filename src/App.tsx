@@ -25,7 +25,7 @@ function App() {
   const scrollToSection = (elementRef: HTMLDivElement) => {
     window.scrollTo({
       // @ts-ignore
-      top: elementRef.current.offsetTop - 120,
+      top: elementRef.current.offsetTop - 20,
       behavior: 'smooth',
     })
   }
