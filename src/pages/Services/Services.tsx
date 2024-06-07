@@ -3,6 +3,7 @@ import './Services.css'
 export const Services = () => {
   return (
     <div className="services__container">
+      <h2>Services We Offer</h2>
       <p>
         At Serene Lily, we offer a comprehensive suite of web development
         services designed to transform your digital presence. Our expertise

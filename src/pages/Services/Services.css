@@ -1,4 +1,5 @@
 .services__container {
   height: 100%;
-  background-color: rgb(218, 191, 200);
+  width: 70%;
+  margin: auto;
 }

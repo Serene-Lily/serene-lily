@@ -4,7 +4,7 @@ import { ContactUsForm } from './ContactUsForm'
 export const Contact = () => {
   return (
     <div className="contact__container">
-      <h3>Contact Us</h3>
+      <h2>Contact Us</h2>
       <p>
         Ready to take the next step? Reach out to us today and discover how we
         can help you achieve your digital goals.

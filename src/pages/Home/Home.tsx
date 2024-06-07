@@ -4,7 +4,7 @@ import './Home.css'
 export const Home = () => {
   return (
     <div className="home__container">
-      <div>
+      <div className="home__description">
         <h1>Unlocking the potential of digital tranquility</h1>
         <p>
           Relax, we'll navigate together to find the best digital solution for
@@ -12,7 +12,12 @@ export const Home = () => {
         </p>
       </div>
 
-      <img src={hero} alt="find your digital tranquility" height={700} />
+      <img
+        className="home__hero"
+        src={hero}
+        alt="find your digital tranquility"
+        height={700}
+      />
     </div>
   )
 }

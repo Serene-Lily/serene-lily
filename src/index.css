@@ -19,6 +19,7 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
   font-family: var(--body-font);
+  line-height: 200%;
 }
 
 ul {

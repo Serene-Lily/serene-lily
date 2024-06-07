@@ -4,6 +4,21 @@
   align-items: center;
 }
 
+.home__description {
+  min-width: 50%;
+}
+
+.home__hero {
+  max-width: 50%;
+  height: auto;
+}
+
+@media screen and (max-width: 950px) {
+  .home__hero {
+    display: none;
+  }
+}
+
 button {
   background-color: var(--first-color);
   color: var(--body-color);
