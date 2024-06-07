@@ -26,17 +26,17 @@ export const About = () => {
       <h3>What Sets Us Apart</h3>
       <ul>
         <li>
-          <strong>Versatile Expertise:</strong>
+          <strong>Versatile Expertise: </strong>
           Our broad experience spans across various facets of web development,
           giving us the versatility to tackle any challenge.
         </li>
         <li>
-          <strong>Clean & Reusable Code:</strong>
+          <strong>Clean & Reusable Code: </strong>
           We believe in writing code that stands the test of time, making it
           easy for your team (or ours!) to maintain and expand upon.
         </li>
         <li>
-          <strong>Client-Centric Approach:</strong>
+          <strong>Client-Centric Approach: </strong>
           Your product goals are our compass. We strive to understand and
           amplify what truly matters to your business.
         </li>

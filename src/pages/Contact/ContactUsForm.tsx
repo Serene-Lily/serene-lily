@@ -35,7 +35,7 @@ export const ContactUsForm = () => {
       )
   }
 
-  // TODO: validation and error handling on form, CAPTCHA test
+  // TODO: validation and error handling on form, CAPTCHA (https://www.emailjs.com/docs/user-guide/adding-captcha-verification/)
   return (
     <div className="form__container">
       {showForm ? (
