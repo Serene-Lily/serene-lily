@@ -1,4 +1,5 @@
 import './Contact.css'
+import { ContactUsForm } from './ContactUsForm'
 
 export const Contact = () => {
   return (
@@ -9,7 +10,7 @@ export const Contact = () => {
         can help you achieve your digital goals.
       </p>
 
-      {/* form */}
+      <ContactUsForm />
 
       <p>
         By blending our professional experience with a personal touch, we aim to
