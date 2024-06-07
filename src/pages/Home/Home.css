@@ -1,7 +1,23 @@
 .home__container {
   display: flex;
-  margin: 100px;
+  width: 70%;
+  margin: 100px auto;
   align-items: center;
+}
+
+.home__description {
+  min-width: 50%;
+}
+
+.home__hero {
+  max-width: 50%;
+  height: auto;
+}
+
+@media screen and (max-width: 950px) {
+  .home__hero {
+    display: none;
+  }
 }
 
 button {

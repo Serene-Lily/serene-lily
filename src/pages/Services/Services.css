@@ -1,4 +1,33 @@
 .services__container {
-  height: 600px;
-  background-color: rgb(218, 191, 200);
+  height: 100%;
+  width: 70%;
+  margin: 100px auto;
+}
+
+.services__header {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5rem 10rem;
+  max-width: 100%;
+}
+
+.subheader {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
