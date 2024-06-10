@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/serene-lily/static/css/main.06c9ff93.css",
-    "main.js": "/serene-lily/static/js/main.5da2f9d2.js",
-    "static/js/453.f28a683e.chunk.js": "/serene-lily/static/js/453.f28a683e.chunk.js",
-    "static/media/home_hero.png": "/serene-lily/static/media/home_hero.f4fb6f196aee3bcf8483.png",
-    "static/media/sl_logo.png": "/serene-lily/static/media/sl_logo.b8a802ce80b0948c17d2.png",
-    "index.html": "/serene-lily/index.html",
-    "main.06c9ff93.css.map": "/serene-lily/static/css/main.06c9ff93.css.map",
-    "main.5da2f9d2.js.map": "/serene-lily/static/js/main.5da2f9d2.js.map",
-    "453.f28a683e.chunk.js.map": "/serene-lily/static/js/453.f28a683e.chunk.js.map"
+    "main.css": "/static/css/main.06c9ff93.css",
+    "main.js": "/static/js/main.9ff8270f.js",
+    "static/js/453.f28a683e.chunk.js": "/static/js/453.f28a683e.chunk.js",
+    "static/media/home_hero.png": "/static/media/home_hero.f4fb6f196aee3bcf8483.png",
+    "static/media/sl_logo.png": "/static/media/sl_logo.b8a802ce80b0948c17d2.png",
+    "index.html": "/index.html",
+    "main.06c9ff93.css.map": "/static/css/main.06c9ff93.css.map",
+    "main.9ff8270f.js.map": "/static/js/main.9ff8270f.js.map",
+    "453.f28a683e.chunk.js.map": "/static/js/453.f28a683e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06c9ff93.css",
-    "static/js/main.5da2f9d2.js"
+    "static/js/main.9ff8270f.js"
   ]
 }
