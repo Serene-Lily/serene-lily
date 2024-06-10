@@ -15,8 +15,7 @@ export const Contact = () => {
       <p>
         By blending our professional experience with a personal touch, we aim to
         make our story relatable and our expertise evident. We look forward to
-        the opportunity to work with you and to turn your web dreams into
-        reality.
+        the opportunity to work with you and to turn your visions into reality.
       </p>
     </div>
   )
