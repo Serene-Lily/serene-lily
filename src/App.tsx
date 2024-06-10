@@ -74,20 +74,20 @@ function App() {
           </div>
         </nav>
       </header>
-      <body>
-        <div className="home">
-          <Home />
-        </div>
-        <div ref={services} className="services">
-          <Services />
-        </div>
-        <div ref={about} className="about">
-          <About />
-        </div>
-        <div ref={contact} className="contact">
-          <Contact />
-        </div>
-      </body>
+
+      <div className="home">
+        <Home />
+      </div>
+      <div ref={services} className="services">
+        <Services />
+      </div>
+      <div ref={about} className="about">
+        <About />
+      </div>
+      <div ref={contact} className="contact">
+        <Contact />
+      </div>
+
       <footer>
         <p className="copyright">Serene Lily © 2024</p>
       </footer>

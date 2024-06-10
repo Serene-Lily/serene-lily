@@ -13,21 +13,40 @@
 
 .subheader {
   margin: auto;
-  width: 50%;
   text-align: center;
+  height: 100%;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  padding: 20px 0;
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+
+.services__image_container {
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+}
+
+.services__image {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .services__image_container {
+    display: none;
+  }
 }
