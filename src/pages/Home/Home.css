@@ -14,12 +14,6 @@
   height: auto;
 }
 
-@media screen and (max-width: 950px) {
-  .home__hero {
-    display: none;
-  }
-}
-
 button {
   background-color: var(--first-color);
   color: var(--body-color);
@@ -29,4 +23,10 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
   padding: 0.75rem 1.5rem;
+}
+
+@media screen and (max-width: 950px) {
+  .home__hero {
+    display: none;
+  }
 }

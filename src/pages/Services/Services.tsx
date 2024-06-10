@@ -1,3 +1,5 @@
+import coding from '../../assets/services_coding.png'
+
 import './Services.css'
 
 export const Services = () => {
@@ -12,7 +14,7 @@ export const Services = () => {
       </p>
 
       <div className="row">
-        <div className="column subheader ">
+        <div className="column subheader">
           <strong>Website Development</strong>
         </div>
         <div className="column">
@@ -26,7 +28,7 @@ export const Services = () => {
       </div>
 
       <div className="row">
-        <div className="column subheader ">
+        <div className="column subheader">
           <strong>Web Application Development</strong>
         </div>
         <div className="column">
@@ -40,7 +42,7 @@ export const Services = () => {
       </div>
 
       <div className="row">
-        <div className="column subheader ">
+        <div className="column subheader">
           <strong>eCommerce Solutions</strong>
         </div>
         <div className="column">
@@ -54,7 +56,7 @@ export const Services = () => {
       </div>
 
       <div className="row">
-        <div className="column subheader ">
+        <div className="column subheader">
           <strong>Content Management System (CMS) Development</strong>
         </div>
         <div className="column">
@@ -68,7 +70,7 @@ export const Services = () => {
       </div>
 
       <div className="row">
-        <div className="column subheader ">
+        <div className="column subheader">
           <strong>No-Code/Low-Code Development</strong>
         </div>
         <div className="column">
@@ -82,7 +84,7 @@ export const Services = () => {
       </div>
 
       <div className="row">
-        <div className="column subheader ">
+        <div className="column subheader">
           <strong>Custom Software Solutions</strong>
         </div>
         <div className="column">
@@ -96,7 +98,7 @@ export const Services = () => {
       </div>
 
       <div className="row">
-        <div className="column subheader ">
+        <div className="column subheader">
           <strong>Mobile-Friendly Design</strong>
         </div>
         <div className="column">
@@ -109,7 +111,7 @@ export const Services = () => {
       </div>
 
       <div className="row">
-        <div className="column subheader ">
+        <div className="column subheader">
           <strong>API Integration & Development</strong>
         </div>
         <div className="column">
@@ -122,7 +124,7 @@ export const Services = () => {
       </div>
 
       <div className="row">
-        <div className="column subheader ">
+        <div className="column subheader">
           <strong>Maintenance & Support</strong>
         </div>
         <div className="column">
@@ -135,6 +137,14 @@ export const Services = () => {
         </div>
       </div>
 
+      <div className="services__image_container">
+        <img
+          className="services__image"
+          src={coding}
+          alt="your coding solution"
+          height={300}
+        />
+      </div>
       <p>
         Each service we offer is backed by our commitment to excellence and our
         passion for innovation. At Serene Lily, we’re not just building

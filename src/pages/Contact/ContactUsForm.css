@@ -1,6 +1,12 @@
 .form__container {
-  width: 400px;
+  width: 70%;
   margin: auto;
+}
+
+@media screen and (max-width: 1150px) {
+  .form__container {
+    width: 100%;
+  }
 }
 
 form {
