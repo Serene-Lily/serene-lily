@@ -8,7 +8,7 @@ export const Home = () => {
         <h1>Unlocking the potential of digital tranquility</h1>
         <p>
           Relax, we'll navigate together to find the best digital solution for
-          you. Say goodbye to headaches, and hello to seamless solutions."
+          you. Say goodbye to headaches, and hello to seamless solutions.
         </p>
       </div>
 

@@ -1,7 +1,7 @@
 {
   "name": "serene-lily",
   "version": "0.1.0",
-  "homepage": "https://serene-lily.github.io/serene-lily/",
+  "homepage": "https://serenelily.co/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
